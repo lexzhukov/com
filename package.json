@@ -26,6 +26,8 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.3.0",
     "@iconify-json/heroicons": "1.1.21",
+    "@iconify-json/simple-icons": "1.1.107",
+    "@tailwindcss/typography": "0.5.13",
     "prettier": "3.3.2",
     "prettier-plugin-astro": "0.14.0",
     "prettier-plugin-tailwindcss": "0.6.5",
