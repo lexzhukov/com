@@ -63,6 +63,9 @@ importers:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: 4.3.1
         version: 4.3.1(prettier@3.3.3)
+      '@iconify-json/devicon':
+        specifier: 1.1.48
+        version: 1.1.48
       '@iconify-json/heroicons':
         specifier: 1.1.22
         version: 1.1.22
@@ -507,6 +510,9 @@ packages:
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
+
+  '@iconify-json/devicon@1.1.48':
+    resolution: {integrity: sha512-G/qOcqiL/vlVgGWxb2ZzTs6wWiSiQiw/BYHXSAafRtzYEs2QxNqTulJYGvLOMMgQrBh4gshmxvCdrpsib276kg==}
 
   '@iconify-json/heroicons@1.1.22':
     resolution: {integrity: sha512-UNfSBdD/JBYBvFFhce6e3FsmeqshGz8u964R36npJvIzuORhIHUXrFerulBWFmbG0V1xvMqLZVZc4bPyjP5p7A==}
@@ -3132,6 +3138,10 @@ snapshots:
       semver: 7.6.2
     transitivePeerDependencies:
       - supports-color
+
+  '@iconify-json/devicon@1.1.48':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/heroicons@1.1.22':
     dependencies:

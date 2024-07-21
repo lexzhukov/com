@@ -1,29 +1,40 @@
 ---
 import { Icon } from 'astro-icon/components';
 
+import Skill from '@/components/Skill.astro';
 import Layout from '@/layouts/Layout.astro';
 ---
 
 <Layout title="Alex Zhukov">
   <main class="mx-auto flex w-full max-w-3xl flex-1 flex-col px-8 py-16">
-    <div class="flex flex-col gap-8">
-      <div
-        class="flex flex-col gap-4 duration-500 animate-in fade-in slide-in-from-bottom-10"
-      >
-        <h1 class="text-3xl font-bold tracking-tighter">hey, I'm Alex 👋</h1>
+    <div
+      class="flex flex-col duration-500 animate-in fade-in slide-in-from-bottom-10"
+    >
+      <h1 class="mb-8 text-3xl font-medium tracking-tighter">
+        hey, I'm alex 👋
+      </h1>
 
+      <div class="flex flex-col gap-4">
         <div class="prose prose-neutral dark:prose-invert">
           <p>
-            I'm a frontend engineer based in Spain, passionate about building
-            smooth and efficient web applications. I love diving into open
-            source projects in my spare time, always looking for new challenges
-            to push myself to grow and learn. With a focus on user experience
-            and clean, maintainable code, I'm all about creating top-notch
-            solutions and keeping up with the latest trends in web development.
+            I'm a frontend engineer with 10+ years of experience, passionate
+            about building robust web applications.
           </p>
-        </div>
-
-        <div class="prose prose-neutral dark:prose-invert">
+          <p>
+            I enjoy working with <Skill
+              href="https://react.dev/"
+              icon="devicon:react">React</Skill
+            >, <Skill href="https://nextjs.org/" icon="devicon:nextjs"
+              >Next.js</Skill
+            >, <Skill href="https://astro.build/" icon="devicon:astro"
+              >Astro</Skill
+            >, <Skill href="https://tailwindcss.com/" icon="devicon:tailwindcss"
+              >Tailwind CSS</Skill
+            >, and <Skill
+              href="https://www.typescriptlang.org/"
+              icon="devicon:typescript">TypeScript</Skill
+            >.
+          </p>
           <p>
             If you want to chat, feel free to reach out to me on socials below.
           </p>
