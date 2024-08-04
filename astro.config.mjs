@@ -11,12 +11,12 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://lexzhukov.com',
   integrations: [
-    tailwind(),
     alpinejs(),
-    sitemap(),
-    icon(),
-    robotsTxt(),
     partytown(),
     react(),
+    sitemap(),
+    tailwind(),
+    icon(),
+    robotsTxt(),
   ],
 });
