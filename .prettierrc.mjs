@@ -13,7 +13,7 @@ export default {
   trailingComma: 'all',
   importOrder: ['<THIRD_PARTY_MODULES>', '', '^@/(.*)$', '', '^[./]'],
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
-  importOrderTypeScriptVersion: '5.5.2',
+  importOrderTypeScriptVersion: '5.5.4',
   overrides: [
     {
       files: '*.astro',
