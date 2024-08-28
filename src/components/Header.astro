@@ -1,4 +1,6 @@
 ---
+import { Icon } from 'astro-icon/components';
+
 import ThemeToggle from './react/ThemeToggle';
 ---
 
@@ -8,14 +10,9 @@ import ThemeToggle from './react/ThemeToggle';
   <nav
     class="mx-auto flex w-full max-w-3xl items-center justify-between px-8 py-4 lg:py-6"
   >
-    <div class="flex items-center gap-4">
-      <a href="/" class="group align-middle text-xl font-semibold">
-        home
-        <span
-          class="block h-0.5 max-w-0 bg-black transition-all group-hover:max-w-full dark:bg-white"
-        ></span>
-      </a>
-    </div>
+    <a aria-label="Home" href="/" class="flex items-center gap-2">
+      <Icon name="heroicons:home" class="size-6" />
+    </a>
     <ThemeToggle client:load />
   </nav>
 </header>
