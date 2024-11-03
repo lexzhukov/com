@@ -1,4 +1,3 @@
-import alpinejs from '@astrojs/alpinejs';
 import partytown from '@astrojs/partytown';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
@@ -11,7 +10,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://lexzhukov.com',
   integrations: [
-    alpinejs(),
     partytown(),
     react(),
     sitemap(),
