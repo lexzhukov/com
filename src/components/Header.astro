@@ -1,18 +1,5 @@
----
-import { Icon } from 'astro-icon/components';
-
-import ThemeToggle from './react/ThemeToggle';
----
-
-<header
-  class="sticky top-0 z-50 border-b border-black/20 backdrop-blur duration-500 animate-in fade-in slide-in-from-top-10 dark:border-white/20"
->
-  <nav
-    class="mx-auto flex w-full max-w-3xl items-center justify-between px-8 py-4 lg:py-6"
-  >
-    <a aria-label="Home" href="/" class="flex items-center gap-2">
-      <Icon name="heroicons:home" class="size-6" />
-    </a>
-    <ThemeToggle client:load />
+<header>
+  <nav class="flex items-center justify-between text-xl md:text-2xl">
+    <a aria-label="Home" href="/" class="font-bold tracking-tighter">ZHUKAU</a>
   </nav>
 </header>
